@@ -6,7 +6,7 @@ function NotFound({ cfg }: QuartzComponentProps) {
     <article class="popover-hint">
       <h1>404</h1>
       <p>{i18n(cfg.locale).pages.error.notFound}</p>
-      <a href="/" style={{ fontSize: "3rem" }}>{i18n(cfg.locale).pages.error.getBackHome}</a>
+      <a href="/" style={{ fontSize: "larger" }}>{i18n(cfg.locale).pages.error.getBackHome}</a>
     </article>
   )
 }

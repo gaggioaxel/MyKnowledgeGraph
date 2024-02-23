@@ -3,6 +3,7 @@ aliases:
   - Leaky ReLU
 tags:
   - ActivationFunction
+title: Leaky Rectified Linear Unit
 ---
 The Leaky Rectified Linear Unit (Leaky ReLU) is a variant of the [[Rectified Linear Unit|ReLU]] activation function that allows a small, positive slope for negative input values, rather than setting them to zero. It is defined as:
 

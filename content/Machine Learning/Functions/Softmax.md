@@ -1,3 +1,8 @@
+---
+title: Softmax
+tags: 
+aliases:
+---
 The softmax function is a mathematical function that converts a vector of real numbers to a probability distribution. It is often used as the activation function in the output layer of a [[Neural Network|neural network]] for [[Classification Problem|multi-class classification problems]].
 
 Mathematically, the softmax function is defined as:

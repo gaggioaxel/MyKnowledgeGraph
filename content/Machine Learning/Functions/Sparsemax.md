@@ -1,8 +1,7 @@
 ---
 tags: 
-aliases:
----
-
+aliases: 
+title: Sparsemax
 ---
 # Summary
 
