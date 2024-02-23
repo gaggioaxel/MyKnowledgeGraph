@@ -2,20 +2,21 @@
 title: README
 ---
 
-# MyKnowledgeTrack
-Aggregation of the knowledge i've deepen into
+# Quartz v4
 
+> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
 
-Here is the structure of the repo and it's knowledge:
-```dataviewjs
-let string = "";
+Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
 
-for (let group of dv.pages().groupBy(p => p.file.folder)){
-    string = String(group.rows.file.folder[0]);
-    if (string == "");
-    
-    else
-	 dv.table([string.split("/")[string.split("/").length - 1], "In-Links", "Out-Links", "Words Count", "Modified"],
-        group.rows.map(k => [k.file.link, k.file.inlinks, k.file.outlinks, k.file.size, k.file.mtime]))
-}
-```
+🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+
+[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+
+## Sponsors
+
+<p align="center">
+  <a href="https://github.com/sponsors/jackyzha0">
+    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
+  </a>
+</p>
