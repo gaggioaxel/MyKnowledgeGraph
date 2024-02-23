@@ -34,6 +34,7 @@ export default {
     },
     footer: {
       createdWith: "Creado con",
+      by: "By",
     },
     graph: {
       title: "Vista Gráfica",
@@ -65,6 +66,7 @@ export default {
     error: {
       title: "No se encontró.",
       notFound: "Esta página es privada o no existe.",
+      getBackHome: "Return to the homepage",
     },
     folderContent: {
       folder: "Carpeta",

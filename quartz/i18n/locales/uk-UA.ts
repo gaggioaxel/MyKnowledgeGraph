@@ -34,6 +34,7 @@ export default {
     },
     footer: {
       createdWith: "Створено за допомогою",
+      by: "By",
     },
     graph: {
       title: "Вигляд графа",
@@ -65,6 +66,7 @@ export default {
     error: {
       title: "Не знайдено",
       notFound: "Ця сторінка або приватна, або не існує.",
+      getBackHome: "Return to the homepage",
     },
     folderContent: {
       folder: "Папка",

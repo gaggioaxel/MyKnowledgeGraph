@@ -34,6 +34,7 @@ export default {
     },
     footer: {
       createdWith: "Creato con",
+      by: "Da",
     },
     graph: {
       title: "Vista grafico",
@@ -64,7 +65,8 @@ export default {
     },
     error: {
       title: "Non trovato",
-      notFound: "Questa pagina è privata o non esiste.",
+      notFound: "Questa pagina non esiste ancora.",
+      getBackHome: "Torna alla home",
     },
     folderContent: {
       folder: "Cartella",

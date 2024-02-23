@@ -34,6 +34,7 @@ export default {
     },
     footer: {
       createdWith: "作成",
+      by: "By",
     },
     graph: {
       title: "グラフビュー",
@@ -65,6 +66,7 @@ export default {
     error: {
       title: "Not Found",
       notFound: "ページが存在しないか、非公開設定になっています。",
+      getBackHome: "Return to the homepage",
     },
     folderContent: {
       folder: "フォルダ",

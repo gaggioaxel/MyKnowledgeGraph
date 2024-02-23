@@ -34,6 +34,7 @@ export default {
     },
     footer: {
       createdWith: "Created with",
+      by: "By",
     },
     graph: {
       title: "Graph View",
@@ -64,7 +65,8 @@ export default {
     },
     error: {
       title: "Not Found",
-      notFound: "Either this page is private or doesn't exist.",
+      notFound: "This page still doesn't exist.",
+      getBackHome: "Return to the homepage",
     },
     folderContent: {
       folder: "Folder",

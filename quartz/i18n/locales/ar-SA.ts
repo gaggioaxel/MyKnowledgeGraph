@@ -34,6 +34,7 @@ export default {
     },
     footer: {
       createdWith: "أُنشئ باستخدام",
+      by: "By",
     },
     graph: {
       title: "التمثيل التفاعلي",
@@ -70,6 +71,7 @@ export default {
     error: {
       title: "غير موجود",
       notFound: "إما أن هذه الصفحة خاصة أو غير موجودة.",
+      getBackHome: "Return to the homepage",
     },
     folderContent: {
       folder: "مجلد",

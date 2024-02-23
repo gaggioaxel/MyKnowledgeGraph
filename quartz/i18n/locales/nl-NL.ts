@@ -34,6 +34,7 @@ export default {
     },
     footer: {
       createdWith: "Gemaakt met",
+      by: "By",
     },
     graph: {
       title: "Grafiekweergave",
@@ -66,6 +67,7 @@ export default {
     error: {
       title: "Niet gevonden",
       notFound: "Deze pagina is niet zichtbaar of bestaat niet.",
+      getBackHome: "Return to the homepage",
     },
     folderContent: {
       folder: "Map",

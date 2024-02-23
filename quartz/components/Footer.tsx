@@ -19,6 +19,7 @@ export default ((opts?: Options) => {
           <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
         </p>
         <ul>
+          {i18n(cfg.locale).components.footer.by}{": Gabriele Romano"}
           {Object.entries(links).map(([text, link]) => (
             <li>
               <a href={link}>{text}</a>

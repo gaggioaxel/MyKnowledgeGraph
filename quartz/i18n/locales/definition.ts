@@ -36,6 +36,7 @@ export interface Translation {
     }
     footer: {
       createdWith: string
+      by: string
     }
     graph: {
       title: string
@@ -67,6 +68,7 @@ export interface Translation {
     error: {
       title: string
       notFound: string
+      getBackHome: string
     }
     folderContent: {
       folder: string
