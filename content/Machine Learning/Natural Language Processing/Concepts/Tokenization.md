@@ -1,0 +1,1 @@
+is the process of breaking a text into smaller units, typically words or subwords. For example, tokenizing the sentence "I love natural language processing" would result in the tokens: ("I", "love", "natural", "language", "processing"). It's a fundamental step in natural language processing tasks.

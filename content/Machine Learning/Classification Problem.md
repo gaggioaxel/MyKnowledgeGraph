@@ -1,0 +1,7 @@
+A classification problem is a type of [[Supervised Learning|supervised learning]] problem where the goal is to categorize input data into one of multiple predefined classes or categories. In a classification problem, the algorithm learns from labeled training data, where each input sample is associated with a class label.
+
+For example, a binary classification problem involves categorizing data into one of two classes, such as "spam" or "not spam". Multi-class classification involves categorizing data into more than two classes, such as identifying the type of animal in an image as "cat", "dog", "bird", etc.
+
+Classification algorithms aim to learn a decision boundary that separates different classes in the input space. Commonly used algorithms for classification include logistic regression, decision trees, [[Support Vector Machine|support vector machines]], [[K-Nearest Neighbors|k-nearest neighbors]], and neural networks.
+
+The performance of a classification algorithm is often evaluated using metrics such as accuracy, precision, recall, F1-score, and confusion matrix, among others. These metrics assess the algorithm's ability to correctly classify instances into their respective classes.

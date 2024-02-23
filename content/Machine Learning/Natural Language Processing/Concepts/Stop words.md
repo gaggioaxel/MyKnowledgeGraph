@@ -1,0 +1,1 @@
+Common words (such as "and", "the", "is") that are often filtered out before or after processing of natural language data.
