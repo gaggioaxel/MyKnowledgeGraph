@@ -1,6 +1,5 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
-import Slider from "./quartz/components/Test"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -24,6 +23,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.TitleAndDarkmode(),
+    //Component.Test(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.DesktopOnly(Component.Explorer()),

@@ -1,33 +1,17 @@
-import { h, Component } from 'preact';
-import script from "./scripts/graph.inline"
-import style from "./styles/graph.scss"
-
-interface SliderProps {
-  min: number;
-  max: number;
-  value: number;
-  onChange: (value: number) => void;
-}
-
-interface SliderState {
-  dragging: boolean;
-}
-
-
-
-const Slider = ({ min, max, value, onChange }: SliderProps) => {
-  const handleSliderChange = (event: Event) => {
-    // Logic to handle slider change
-    onChange(parseFloat((event.target as HTMLInputElement).value));
-  };
-
+import { QuartzComponentConstructor, QuartzComponentProps, QuartzComponent } from "./types"
+// @ts-ignore
+import script from "./scripts/mycomponent.inline"
+ 
+const YourComponent: QuartzComponent = ({ fileData, displayClass, cfg, ctx }: QuartzComponentProps) => {
+  //if (fileData.slug == "index"){  console.log(fileData.htmlAst?.children);}
   return (
-    <input type="range" min={min} max={max} value={value} onInput={handleSliderChange} />
-  );
-};
+    <p> 
+      <button id="btn">{fileData.slug}</button>
+      {fileData.text} 
+    </p>
+  )
+}
+ 
+YourComponent.afterDOMLoaded = script
 
-// Define properties to make Slider compatible with QuartzComponent
-Slider.css = style // Add any required CSS for the component
-Slider.afterDOMLoaded = script // Add any required script to run after DOM is loaded
-
-export default Slider;
+export default (() => YourComponent) satisfies QuartzComponentConstructor

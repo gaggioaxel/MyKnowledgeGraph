@@ -33,7 +33,7 @@ const parseDependencies = (argv: Argv, hast: Root, file: VFile): string[] => {
       // transclusions will create a tags with relative hrefs
       ref = elem.properties.href.toString()
     }
-
+    console.log(ref)
     // if it is a relative url, its a local file and we need to add
     // it to the dependency graph. otherwise, ignore
     if (ref === null || !isRelativeURL(ref)) {
