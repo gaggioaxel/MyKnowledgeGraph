@@ -1,3 +1,4 @@
+<iframe>
   <div id="top-controls">
     <div class="container l--page">
       <div class="timeline-controls">
@@ -83,10 +84,11 @@
       </div>
     </div>
   </div>
+</iframe>
+
 
    <!-- Main Part -->
    <div id="main-part" class="l--page">
-
     <!--  Data Column-->
     <div class="column data">
       <h4>
@@ -139,7 +141,6 @@
           </button>
       </div>
     </div>
-
     <!-- Features Column -->
     <div class="column features">
       <h4>Features</h4>
@@ -185,7 +186,6 @@
         </div>
       </div>
     </div>
-
     <!-- Hidden Layers Column -->
     <div class="column hidden-layers">
       <h4>
@@ -202,7 +202,6 @@
       </h4>
       <div class="bracket"></div>
     </div>
-
     <!-- Output Column -->
     <div class="column output">
       <h4>Output</h4>
@@ -220,7 +219,6 @@
       <div id="heatmap"></div>
       <div style="float:left;margin-top:20px">
         <div style="display:flex; align-items:center;">
-
           <!-- Gradient color scale -->
           <div class="label" style="width:105px; margin-right: 10px">
             Colors shows data, neuron and weight values.
@@ -252,12 +250,4 @@
       </div>
     </div>
 
-  </div>
-
-  <!-- More -->
-  <div class="more">
-    <!-- <button class="mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">keyboard_arrow_down</i></button> -->
-    <button class="mdl-button mdl-js-button mdl-button--fab">
-      <i class="material-icons">keyboard_arrow_down</i>
-    </button>
   </div>
