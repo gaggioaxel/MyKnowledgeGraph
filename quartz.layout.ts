@@ -23,7 +23,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.TitleAndDarkmode(),
-    //Component.Test(),
+    Component.Test(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.DesktopOnly(Component.Explorer()),

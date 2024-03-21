@@ -1095,9 +1095,11 @@ function simulationStarted() {
   parametersChanged = false;
 }
 
-drawDatasetThumbnails();
-initTutorial();
-makeGUI();
-generateData(true);
-reset(true);
-hideControls();
+export const playground = () => {
+  drawDatasetThumbnails();
+  initTutorial();
+  makeGUI();
+  generateData(true);
+  reset(true);
+  hideControls();
+};
