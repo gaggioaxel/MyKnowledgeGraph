@@ -1096,10 +1096,10 @@ function simulationStarted() {
 }
 
 export const playground = () => {
-  drawDatasetThumbnails();
-  initTutorial();
-  makeGUI();
-  generateData(true);
-  reset(true);
-  hideControls();
+//  drawDatasetThumbnails();
+//  initTutorial();
+//  makeGUI();
+//  generateData(true);
+//  reset(true);
+//  hideControls();
 };

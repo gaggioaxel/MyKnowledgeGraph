@@ -271,6 +271,6 @@ const YourComponent: QuartzComponent = ({ fileData, displayClass, cfg, ctx }: Qu
   //)
 }
  
-YourComponent.afterDOMLoaded = playground
+YourComponent.afterDOMLoaded = null//playground()
 
 export default (() => YourComponent) satisfies QuartzComponentConstructor
