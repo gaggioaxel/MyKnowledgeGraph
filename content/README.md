@@ -2,16 +2,53 @@
 title: README
 ---
 
-# Quartz v4
+# Welcome to My Obsidian MD-Based Website!
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
+This website is built using Obsidian MD and contains a collection of topics related to machine learning. It serves as a personal knowledge base and garden for exploring various concepts in the field of machine learning.
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## About Obsidian ![ObsidianIMG | 20](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/2023_Obsidian_logo.svg/1024px-2023_Obsidian_logo.svg.png) 
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+[Obsidian](https://obsidian.md/) is a powerful note-taking and knowledge management tool that allows users to create, organize, and navigate their notes in a flexible and intuitive way. It supports markdown formatting, backlinks, graph view, and many other features that make it ideal for building personal knowledge bases.
+
+## Topics Covered
+
+The website covers a wide range of topics related to machine learning, including:
+
+1. Introduction to Machine Learning
+2. Types of Machine Learning Algorithms
+3. Supervised Learning
+4. Unsupervised Learning
+5. Reinforcement Learning
+6. Deep Learning
+7. Neural Networks
+8. Convolutional Neural Networks (CNNs)
+9. Recurrent Neural Networks (RNNs)
+10. Natural Language Processing (NLP)
+11. Computer Vision
+12. Time Series Analysis
+13. Model Evaluation and Validation
+14. Hyperparameter Tuning
+15. Feature Engineering
+16. Data Preprocessing
+17. Model Deployment
+18. Explainable AI
+19. Bias and Fairness in Machine Learning
+20. Ethics of AI
+
+## How to Use
+
+You can navigate through the topics using the links provided in the sidebar or by using the search functionality. Each topic page contains detailed explanations, examples, and resources to help you understand and explore the concepts further.
+
+## Contributing
+
+Contributions to this website are welcome! If you have any suggestions, corrections, or new topics to add, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
 
 ## Sponsors
 
