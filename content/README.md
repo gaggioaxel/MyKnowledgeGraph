@@ -1,13 +1,9 @@
----
-title: README
----
-
 # Welcome to My Obsidian MD-Based Website!
 
 
 This website is built using Obsidian MD and contains a collection of topics related to machine learning. It serves as a personal knowledge base and garden for exploring various concepts in the field of machine learning.
 
-## About Obsidian ![ObsidianIMG | 20](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/2023_Obsidian_logo.svg/1024px-2023_Obsidian_logo.svg.png) 
+## About Obsidian <img src = "" alt="Obsidian"/>
 
 [Obsidian](https://obsidian.md/) is a powerful note-taking and knowledge management tool that allows users to create, organize, and navigate their notes in a flexible and intuitive way. It supports markdown formatting, backlinks, graph view, and many other features that make it ideal for building personal knowledge bases.
 
