@@ -3,22 +3,14 @@ import style from "./styles/footer.scss"
 import { version } from "../../package.json"
 import { i18n } from "../i18n"
 
-/*interface Options {
-  links: Record<string, string>
-}*/
 interface Options {
-  links: Record<string, LinkInfo>
-}
-
-interface LinkInfo {
-  url: string;
-  image?: string;
+  platforms: Record<string, {url: string; image: string}>
 }
 
 export default ((opts?: Options) => {
   const Footer: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
     const year = new Date().getFullYear()
-    const links = opts?.links ?? []
+    const platforms = opts?.platforms ?? []
     return (
       <footer class={`${displayClass ?? ""}`}>
         <hr />
@@ -30,16 +22,16 @@ export default ((opts?: Options) => {
         {i18n(cfg.locale).components.footer.by}: Gabriele Romano
         </p>
         <ul>
-          {Object.entries(links).map(([text, link]) => (
-            <li>
+          {Object.entries(platforms).map(([text, link]) => (
+            <li style={{ verticalAlign: 'middle', display: 'inline-block', marginRight: '20px' }}>
               <a href={link.url}>{text} 
               {link.image && (
               <>
-              <span style={{ marginRight: '3px' }} />
+              <span style={{ marginRight: '8px' }} />
               <img src={link.image} alt={`${text} logo`} 
-              style={{  width: '64px', 
-                        height: '64px',
-                        verticalAlign: 'middle', 
+              style={{  width: '32px', 
+                        height: '32px',
+                        verticalAlign: '-100%', 
                     }}/>
               </>
               )}
@@ -50,29 +42,6 @@ export default ((opts?: Options) => {
       </footer>
     )
   }
-
-/*export default ((opts?: Options) => {
-  const Footer: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
-    const year = new Date().getFullYear()
-    const links = opts?.links ?? []
-    return (
-      <footer class={`${displayClass ?? ""}`}>
-        <hr />
-        <p>
-          {i18n(cfg.locale).components.footer.createdWith}{" "}
-          <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
-        </p>
-        <ul>
-          {i18n(cfg.locale).components.footer.by}{": Gabriele Romano"}
-          {Object.entries(links).map(([text, link]) => (
-            <li>
-              <a href={link}>{text}</a>
-            </li>
-          ))}
-        </ul>
-      </footer>
-    )
-  }*/
 
   Footer.css = style
   return Footer

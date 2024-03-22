@@ -6,9 +6,9 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   footer: Component.Footer({
-    links: {
-      GitHub: {url: "https://github.com/gaggioaxel/MyKnowledgeGraph", image:"https://raw.githubusercontent.com/gaggioaxel/MyKnowledgeGraph/67874a43997865bc35215011a1c8e90065f0292b/quartz/static/github.png"},
-      LinkedIn: {url:"https://www.linkedin.com/in/gabriele-romano/", image:"https://raw.githubusercontent.com/gaggioaxel/MyKnowledgeGraph/67874a43997865bc35215011a1c8e90065f0292b/quartz/static/linkedin.png"},
+    platforms: {
+      GitHub: {url: "https://github.com/gaggioaxel/MyKnowledgeGraph", image:"https://raw.githubusercontent.com/gaggioaxel/MyKnowledgeGraph/v4/quartz/static/github.png"},
+      LinkedIn: {url:"https://www.linkedin.com/in/gabriele-romano/", image:"https://raw.githubusercontent.com/gaggioaxel/MyKnowledgeGraph/v4/quartz/static/linkedin.png"},
     },
   }),
 }
