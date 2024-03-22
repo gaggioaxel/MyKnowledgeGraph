@@ -257,8 +257,6 @@ const YourComponent: QuartzComponent = ({ fileData, displayClass, cfg, ctx }: Qu
     </div>
 
   </div>
-  <script src="bundle.js"></script>
-  <script src="analytics.js"></script>
 </body>
 </html>
 )
