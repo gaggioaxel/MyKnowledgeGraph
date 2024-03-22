@@ -3,7 +3,7 @@
 
 This website is built using Obsidian MD and contains a collection of topics related to machine learning. It serves as a personal knowledge base and garden for exploring various concepts in the field of machine learning.
 
-## About Obsidian <img src = "" alt="Obsidian"/>
+## About Obsidian <img src = "https://raw.githubusercontent.com/gaggioaxel/MyKnowledgeGraph/v4/quartz/static/obsidian.svg" style="width: auto; height: 1em;" />
 
 [Obsidian](https://obsidian.md/) is a powerful note-taking and knowledge management tool that allows users to create, organize, and navigate their notes in a flexible and intuitive way. It supports markdown formatting, backlinks, graph view, and many other features that make it ideal for building personal knowledge bases.
 

@@ -29,9 +29,9 @@ export default ((opts?: Options) => {
               <>
               <span style={{ marginRight: '8px' }} />
               <img src={link.image} alt={`${text} logo`} 
-              style={{  width: '32px', 
-                        height: '32px',
-                        verticalAlign: '-100%', 
+              style={{  width: '2em', 
+                        height: '2em',
+                        verticalAlign: '-95%', 
                     }}/>
               </>
               )}
