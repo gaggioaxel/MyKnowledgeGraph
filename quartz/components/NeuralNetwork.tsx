@@ -2,7 +2,7 @@ import { QuartzComponentConstructor, QuartzComponentProps, QuartzComponent } fro
 // @ts-ignore
 import {playground} from "./scripts/neural_network/playground"
  
-const YourComponent: QuartzComponent = ({ fileData, displayClass, cfg, ctx }: QuartzComponentProps) => {
+const NeuralNetwork: QuartzComponent = ({ fileData, displayClass, cfg, ctx }: QuartzComponentProps) => {
   //if (fileData.slug == "index"){  console.log(fileData.htmlAst?.children);}
   return (
 <html>
@@ -259,16 +259,8 @@ const YourComponent: QuartzComponent = ({ fileData, displayClass, cfg, ctx }: Qu
   </div>
 </body>
 </html>
-)
-
-  //return (
-  //  <p> 
-  //    <button id="btn">{fileData.slug}</button>
-  //    {fileData.text} 
-  //  </p>
-  //)
-}
+)}
  
-YourComponent.afterDOMLoaded = null//playground()
+NeuralNetwork.afterDOMLoaded = undefined//playground
 
-export default (() => YourComponent) satisfies QuartzComponentConstructor
+export default (() => NeuralNetwork) satisfies QuartzComponentConstructor

@@ -20,7 +20,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
-    Component.Test(),
+    //Component.NeuralNetwork(),
   ],
   left: [
     Component.TitleAndDarkmode(),

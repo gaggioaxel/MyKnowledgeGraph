@@ -9,6 +9,9 @@ function NotFound({ fileData, cfg }: QuartzComponentProps) {
       <h1>404</h1>
       <p>{i18n(cfg.locale).pages.error.notFound}</p>
       <a href={baseDir} style={{ fontSize: "larger" }}>{i18n(cfg.locale).pages.error.getBackHome}</a>
+      <p>
+        Or <button onClick={() => history.go(-1)}>go back in navigation webpages</button>
+      </p>
     </article>
   )
 }
