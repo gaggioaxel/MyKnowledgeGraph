@@ -53,8 +53,3 @@ Thank you for joining me on my learning journey! I'm excited about the opportuni
 
 So where do we start?
 Obviously from [[Machine Learning]]
-
-Test 
-```python
-a = 0
-```
