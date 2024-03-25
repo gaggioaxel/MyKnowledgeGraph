@@ -48,10 +48,10 @@ async function buildQuartz(argv: Argv, mut: Mutex, clientRefresh: () => void) {
   const perf = new PerfTimer()
   const output = argv.output
 
-  const pluginCount = Object.values(cfg.plugins).flat().length
-  const pluginNames = (key: "transformers" | "filters" | "emitters") =>
-    cfg.plugins[key].map((plugin) => plugin.name)
   if (argv.verbose) {
+    const pluginCount = Object.values(cfg.plugins).flat().length
+    const pluginNames = (key: "transformers" | "filters" | "emitters") =>
+      cfg.plugins[key].map((plugin) => plugin.name)
     console.log(`Loaded ${pluginCount} plugins`)
     console.log(`  Transformers: ${pluginNames("transformers").join(", ")}`)
     console.log(`  Filters: ${pluginNames("filters").join(", ")}`)

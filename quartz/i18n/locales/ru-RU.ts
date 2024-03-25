@@ -68,7 +68,7 @@ export default {
     error: {
       title: "Страница не найдена",
       notFound: "Эта страница приватная или не существует",
-      getBackHome: "Return to the homepage",
+      goBackHome: "Return to the homepage",
     },
     folderContent: {
       folder: "Папка",

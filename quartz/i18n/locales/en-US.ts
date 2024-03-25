@@ -66,7 +66,8 @@ export default {
     error: {
       title: "Not Found",
       notFound: "This page still doesn't exist.",
-      getBackHome: "Return to the homepage",
+      goBackHome: "Return to the homepage",
+      goBack: "or go back in navigation",
     },
     folderContent: {
       folder: "Folder",

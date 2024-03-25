@@ -66,7 +66,7 @@ export default {
     error: {
       title: "No se encontró.",
       notFound: "Esta página es privada o no existe.",
-      getBackHome: "Return to the homepage",
+      goBackHome: "Return to the homepage",
     },
     folderContent: {
       folder: "Carpeta",

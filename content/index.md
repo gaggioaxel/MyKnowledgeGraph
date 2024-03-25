@@ -37,6 +37,10 @@ As I immerse myself in the world of NLP and classification tasks, I'm actively e
 
 ## Goals and Aspirations
 
+A detailed list can be found at [Trello Board](https://trello.com/b/crdpCxgi)
+
+Below there are summarized the objectives of these features:
+
 ### Short-Term Goals
 - Document my learning progress and insights on my website, sharing valuable resources with others in the community.
 - Implement visual examples

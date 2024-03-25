@@ -5,12 +5,14 @@ import { i18n } from "../i18n"
 
 interface Options {
   platforms: Record<string, {url: string; image: string}>
+  creator: string
 }
 
 export default ((opts?: Options) => {
   const Footer: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
     const year = new Date().getFullYear()
     const platforms = opts?.platforms ?? []
+    const creator = opts?.creator ?? "not set"
     return (
       <footer class={`${displayClass ?? ""}`}>
         <hr />
@@ -19,7 +21,7 @@ export default ((opts?: Options) => {
           <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
         </p>
         <p>
-        {i18n(cfg.locale).components.footer.by}: Gabriele Romano
+        {i18n(cfg.locale).components.footer.by}: {creator}
         </p>
         <ul>
           {Object.entries(platforms).map(([text, link]) => (

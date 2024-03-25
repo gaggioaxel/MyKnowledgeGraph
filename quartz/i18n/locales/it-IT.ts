@@ -66,7 +66,8 @@ export default {
     error: {
       title: "Non trovato",
       notFound: "Questa pagina non esiste ancora.",
-      getBackHome: "Torna alla home",
+      goBackHome: "Torna alla homepage",
+      goBack: "o torna indietro con la navigazione",
     },
     folderContent: {
       folder: "Cartella",

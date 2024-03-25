@@ -66,7 +66,7 @@ export default {
     error: {
       title: "Not Found",
       notFound: "ページが存在しないか、非公開設定になっています。",
-      getBackHome: "Return to the homepage",
+      goBackHome: "Return to the homepage",
     },
     folderContent: {
       folder: "フォルダ",

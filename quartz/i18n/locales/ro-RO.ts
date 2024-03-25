@@ -67,7 +67,7 @@ export default {
     error: {
       title: "Pagina nu a fost găsită",
       notFound: "Fie această pagină este privată, fie nu există.",
-      getBackHome: "Return to the homepage",
+      goBackHome: "Return to the homepage",
     },
     folderContent: {
       folder: "Dosar",

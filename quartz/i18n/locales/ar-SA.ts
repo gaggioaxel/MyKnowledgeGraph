@@ -71,7 +71,8 @@ export default {
     error: {
       title: "غير موجود",
       notFound: "إما أن هذه الصفحة خاصة أو غير موجودة.",
-      getBackHome: "Return to the homepage",
+      goBackHome: "Return to the homepage",
+      goBack: "TODO Translate",
     },
     folderContent: {
       folder: "مجلد",

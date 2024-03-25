@@ -68,7 +68,8 @@ export interface Translation {
     error: {
       title: string
       notFound: string
-      getBackHome: string
+      goBackHome: string
+      goBack: string
     }
     folderContent: {
       folder: string

@@ -66,7 +66,7 @@ export default {
     error: {
       title: "Introuvable",
       notFound: "Cette page est soit privée, soit elle n'existe pas.",
-      getBackHome: "Return to the homepage",
+      goBackHome: "Return to the homepage",
     },
     folderContent: {
       folder: "Dossier",
