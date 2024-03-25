@@ -9,6 +9,7 @@ export const sharedPageComponents: SharedLayout = {
     platforms: {
       GitHub: {url: "https://github.com/gaggioaxel/MyKnowledgeGraph", image:"https://raw.githubusercontent.com/gaggioaxel/MyKnowledgeGraph/v4/quartz/static/github.png"},
       LinkedIn: {url:"https://www.linkedin.com/in/gabriele-romano/", image:"https://raw.githubusercontent.com/gaggioaxel/MyKnowledgeGraph/v4/quartz/static/linkedin.png"},
+      Instagram: {url:"https://www.instagram.com/gaggioaxel", image:"https://raw.githubusercontent.com/gaggioaxel/MyKnowledgeGraph/v4/quartz/static/instagram.png"}
     },
   }),
 }
