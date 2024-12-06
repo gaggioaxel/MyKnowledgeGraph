@@ -34,6 +34,7 @@ export default {
     },
     footer: {
       createdWith: "Created with",
+      by: "by",
     },
     graph: {
       title: "그래프 뷰",

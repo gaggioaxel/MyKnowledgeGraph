@@ -34,6 +34,7 @@ export default {
     },
     footer: {
       createdWith: "Erstellt mit",
+      by: "by",
     },
     graph: {
       title: "Graphansicht",

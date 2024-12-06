@@ -5,13 +5,24 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
   footer: Component.Footer({
-    links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+    platforms: {
+      GitHub: {
+        url: "https://github.com/gaggioaxel/MyKnowledgeGraph",
+        image: "https://raw.githubusercontent.com/gaggioaxel/MyKnowledgeGraph/v4/quartz/static/github.png"
+      },
+      LinkedIn: {
+        url: "https://www.linkedin.com/in/gabriele-romano",
+        image: "https://raw.githubusercontent.com/gaggioaxel/MyKnowledgeGraph/v4/quartz/static/linkedin.png"
+      },
+      Instagram: {
+        url: "https://www.instagram.com/gaggioaxel",
+        image: "https://raw.githubusercontent.com/gaggioaxel/MyKnowledgeGraph/v4/quartz/static/instagram.png"
+      }
     },
+    creator: "Gabriele Romano",
   }),
+  afterBody: []
 }
 
 // components for pages that display a single page (e.g. a single note)
@@ -21,12 +32,13 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    //Component.NeuralNetwork(),
   ],
   left: [
     Component.PageTitle(),
+    Component.Darkmode(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
@@ -41,9 +53,9 @@ export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
     Component.PageTitle(),
+    Component.Darkmode(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [],

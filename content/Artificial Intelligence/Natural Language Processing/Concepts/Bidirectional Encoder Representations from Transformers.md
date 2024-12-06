@@ -1,0 +1,6 @@
+---
+aliases:
+  - BERT
+tags:
+  - ContextualEmbedding
+---
